@@ -1,0 +1,177 @@
+* {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #52575d;
+}
+
+P{
+  font-family: 'Alata', sans-serif;
+  font-weight: 600;
+}
+
+.box1{
+  background: yellow;
+  width: 100px;
+  height: 100px;
+  border: 10px solid #767c77;
+
+}
+
+.box1_c{
+  font-size: 30px;
+/*   text-align: center; */
+  line-weight: 100px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.box2{
+  background: orange;
+  top: 50px;
+  width: 100px;
+  height: 100px;
+  border: 10px solid #767c77;
+  transform: rotate(-45deg);
+}
+
+.box1_c{
+  font-size: 30px;
+/*   text-align: center; */
+  line-weight: 100px;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%)  scale(1.5);
+}
+
+.box2_c{
+  font-size: 30px;
+  line-weight: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin :0;
+  transform: translate(-50%,-50%) rotate(45deg) scale(1.5);
+} 
+
+
+.box3{
+  background: #2d4059 ;
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  border: 10px solid  #ea5455 ;
+  margin: 50px;
+  padding-left: 30px;
+  padding-top: 50px;
+}
+
+.box3_c {
+  color: #fbe2e5;
+  margin-top: 200px;
+}
+
+
+
+.box4{
+  background: #411f1f ;
+  width: 150px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 50px;
+}
+
+.box4_1{
+  background: #cedebd ;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.box4_2{
+  background: #86c4ba ;
+  width: 120px;
+  height: 80px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+html, body{
+  width: 100%;
+  height: 100%;  
+}
+
+.cardback{
+  background: #d8d3cd;
+  width: 100%;
+  height: 100%;
+}
+
+
+.cardbox{
+  background: white ;
+  width: 640px;
+  height: 460px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 8px gray;
+  positon: absolute;
+  top: 50%;
+  left: 50%;
+  transform : translate(-50%,-50%);
+  overflow: hidden;
+}
+
+.boxcontent{
+  width: 50%;
+  height: 100%;
+  display:inline-block;
+  vertical-align: top;
+}
+
+.dogimg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.boxcontent{
+  vertical-align: top;
+  font-family: 'PT  Serif', serif;
+}
+.title{
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 56px;
+  width: 500px;
+  z-index: 999;
+}
+
+.price{
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 36px;
+  color: #cf1b1b;
+}
+
+.subtitle{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 24px;
+  font-style: italic;
+}
+
+.buttonC{
+  background: #e11d74 ;
+  color: white;
+  padding: 15px 15px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;  
+}
